@@ -10,9 +10,9 @@ interface HeroProps {
 const TYPING_PHRASES = [
   'Precision in every curve.',
   'Power without compromise.',
+  'Designed for the extraordinary.',
   'Born to move you.',
 ];
-
 export const Hero: React.FC<HeroProps> = ({ onExploreClick, onOpenTestDrive }) => {
   // Live typing animation state
   const [phraseIndex, setPhraseIndex] = useState(0);
