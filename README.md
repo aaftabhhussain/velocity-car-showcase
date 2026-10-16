@@ -1,6 +1,6 @@
 # VELOCITY — The Art of Driving
 
-An extraordinary, cinematic, premium 3D automotive experience showcasing the pinnacle of automotive engineering, design, and performance.
+VELOCITY is a premium automotive showroom celebrating luxury, innovation, and exceptional driving performance.
 
 ## Overview
 
