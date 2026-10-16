@@ -59,3 +59,7 @@
 .animate-red-sweep {
   animation: redSweep 6s infinite ease-in-out;
 }
+/* Smooth scrolling across the website */
+html {
+  scroll-behavior: smooth;
+}
