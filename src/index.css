@@ -63,3 +63,9 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* Custom text selection colors */
+::selection {
+  background: #dc2626;
+  color: #ffffff;
+}
