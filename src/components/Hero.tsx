@@ -10,9 +10,9 @@ interface HeroProps {
 const TYPING_PHRASES = [
   'Precision in every curve.',
   'Power without compromise.',
+  'Designed for the extraordinary.',
   'Born to move you.',
 ];
-
 export const Hero: React.FC<HeroProps> = ({ onExploreClick, onOpenTestDrive }) => {
   // Live typing animation state
   const [phraseIndex, setPhraseIndex] = useState(0);
@@ -155,7 +155,10 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick, onOpenTestDrive }) =
           </h1>
 
           {/* Typing Animation Subtitle with Blinking Cursor */}
-          <div className="h-10 sm:h-12 flex items-center">
+          <div
+  className="h-10 sm:h-12 flex items-center"
+  aria-label="Velocity brand message"
+>
             <p className="text-lg sm:text-2xl text-slate-200 font-light tracking-wide flex items-center">
               <span>{displayText}</span>
               <span
