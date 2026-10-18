@@ -1,4 +1,14 @@
+
 import { Car } from '../types/car';
+
+import heroHypercar from '../assets/images/hero_hypercar_obsidian_1792160358191.jpg';
+import redHypercar from '../assets/images/car_hypercar_red_1792160357622.jpg';
+import silverGT from '../assets/images/car_luxury_gt_silver_1792160358557.jpg';
+import electricCyan from '../assets/images/car_electric_hyper_cyan_1792160358447.jpg';
+import hyperSUV from '../assets/images/car_hyper_suv_1792160380463.jpg';
+import yellowSpeedster from '../assets/images/car_speedster_yellow_1792160379909.jpg';
+import stealthGT from '../assets/images/car_stealth_gt_matte_1792160381734.jpg';
+import electricWhite from '../assets/images/car_electric_hyper_white_1792160380319.jpg';
 
 export const CARS: Car[] = [
   {
@@ -9,7 +19,7 @@ export const CARS: Car[] = [
     category: 'Sports',
     price: 3450000,
     formattedPrice: '$3,450,000',
-    image: '/src/assets/images/hero_hypercar_obsidian_1792160358191.jpg',
+    image: heroHypercar,
     year: 2026,
     description: 'The definitive physical manifestation of extreme aerodynamics and unfiltered combustion. Built around a bespoke 100% dry carbon monocoque chassis generating over 1,800 kg of downforce at track speeds.',
     highlights: [
@@ -46,7 +56,7 @@ export const CARS: Car[] = [
     category: 'Sports',
     price: 480000,
     formattedPrice: '$480,000',
-    image: '/src/assets/images/car_hypercar_red_1792160357622.jpg',
+    image: redHypercar,
     year: 2026,
     description: 'A visceral tribute to mid-engine Italian motorsport heritage. Featuring twin twin-scroll turbochargers feeding into a flat-plane crankshaft that screams all the way to an intoxicating 8,500 RPM.',
     highlights: [
@@ -83,7 +93,7 @@ export const CARS: Car[] = [
     category: 'Luxury',
     price: 320000,
     formattedPrice: '$320,000',
-    image: '/src/assets/images/car_luxury_gt_silver_1792160358557.jpg',
+    image: silverGT,
     year: 2026,
     description: 'The epitome of British grand touring royalty. Melding thunderous twin-turbo V12 torque with an acoustic chamber tuned for sheer refinement across the French Riviera or Bavarian autobahns.',
     highlights: [
@@ -120,7 +130,7 @@ export const CARS: Car[] = [
     category: 'Electric',
     price: 2900000,
     formattedPrice: '$2,900,000',
-    image: '/src/assets/images/car_electric_hyper_cyan_1792160358447.jpg',
+    image: electricCyan,
     year: 2026,
     description: 'Engineered at the boundary where aerospace computing merges with motorsport. Four independent silicon-carbide inverters modulate torque at each wheel 100 times per millisecond.',
     highlights: [
@@ -157,7 +167,7 @@ export const CARS: Car[] = [
     category: 'SUV',
     price: 2450000,
     formattedPrice: '$245,000',
-    image: '/src/assets/images/car_hyper_suv_1792160380463.jpg',
+    image: hyperSUV,
     year: 2026,
     description: 'Proving that command seating and sports car dynamism are not mutually exclusive. The Dominus harnesses a twin-turbo hot-inside-V engine paired with 48-volt active roll stabilization.',
     highlights: [
@@ -194,7 +204,7 @@ export const CARS: Car[] = [
     category: 'Sports',
     price: 1850000,
     formattedPrice: '$1,850,000',
-    image: '/src/assets/images/car_speedster_yellow_1792160379909.jpg',
+    image: yellowSpeedster,
     year: 2026,
     description: 'Stripped of every superfluous gram. The Zenith Apex 77 uses aerospace carbon fiber prepreg body panels, polycarbonate windows, and an 890 HP naturally-breathing power unit for unmatched purity.',
     highlights: [
@@ -231,7 +241,7 @@ export const CARS: Car[] = [
     category: 'Luxury',
     price: 310000,
     formattedPrice: '$310,000',
-    image: '/src/assets/images/car_stealth_gt_matte_1792160381734.jpg',
+    image: stealthGT,
     year: 2026,
     description: 'An architectural sculpture wrapped in deep matte obsidian and forged satin bronze. Handcrafted in Crewe with 200 hours devoted strictly to interior bookmatched veneers and knurled titanium controls.',
     highlights: [
@@ -268,7 +278,7 @@ export const CARS: Car[] = [
     category: 'Electric',
     price: 2400000,
     formattedPrice: '$2,400,000',
-    image: '/src/assets/images/car_electric_hyper_white_1792160380319.jpg',
+    image: electricWhite,
     year: 2026,
     description: 'Unleashing nearly two thousand metric horsepower through quad individual inverters. Capable of bending physics with lateral cornering forces exceeding 1.7G.',
     highlights: [
